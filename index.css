@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: #6943FF;
+}
+
+.top{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    /* background-color: gray; */
+}
+
+#title-h1 {
+    margin-bottom: 0;
+}
+
+#value-h1{
+    color: white;
+    font-size: 58px;
+    font-weight: bold;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#convert-btn {
+    width: 110px;
+    padding: 9px 27.5px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 25px;
+    /* font-size: 16px; */   
+}
+
+.measurements{
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    /* flex: 1; */
+}
+
+
+#heading {
+    color: #CCC1FF;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 31px;
+    margin: 0;
+}
+
+#numbers {
+    text-align: center;
+}
+
+
+.display-btn {
+    background-color: #273549;
+    border: none;
+    color: white;
+    width: 500px;
+    height: 108px;
+}
